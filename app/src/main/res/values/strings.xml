@@ -3,7 +3,7 @@
     <string name="title_activity_maps">FindMySickness</string>
 
     <string-array name="symptoms_array">
-        <item>Filter by:</item>
+        <item>Filter &#x25BC;</item>
         <item>Fever</item>
         <item>Cough</item>
         <item>Sneezing</item>
