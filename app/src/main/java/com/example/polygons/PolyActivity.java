@@ -1,6 +1,7 @@
 /* reverted*/
 package com.example.polygons;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -18,6 +19,8 @@ import com.google.android.gms.maps.model.PolylineOptions;
 import com.google.android.gms.maps.model.RoundCap;
 import android.widget.Spinner;
 import android.widget.ArrayAdapter;
+
+
 
 import android.support.design.widget.FloatingActionButton;
 import android.view.View;
@@ -71,8 +74,9 @@ public class PolyActivity extends AppCompatActivity
         FloatingActionButton myFab = (FloatingActionButton)  findViewById(R.id.floatingActionButton);
         myFab.setOnClickListener(new View.OnClickListener() {
                                      public void onClick(View v) {
-                                         g.addMarker(new MarkerOptions().position(new LatLng(43.084452, -77.673883))
-                                                 .title("Marker in Clark Gym"));
+                                         /*g.addMarker(new MarkerOptions().position(new LatLng(43.084452, -77.673883))
+                                                 .title("Marker in Clark Gym"));*/
+                                         startActivity(new Intent(PolyActivity.this, SelfReport.class));
                                      }
                                  });
 
