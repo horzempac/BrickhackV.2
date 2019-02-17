@@ -3,14 +3,21 @@
     <string name="title_activity_maps">FindMySickness</string>
 
     <string-array name="symptoms_array">
-        <item>Filter &#x25BC;</item>
+        <item>Symptom &#x25BC;</item>
         <item>Fever</item>
         <item>Cough</item>
         <item>Sneezing</item>
         <item>Rash</item>
         <item>Nausea</item>
         <item>Headache</item>
+    </string-array>
 
+
+    <string-array name="distance_array">
+        <item>Distance &#x25BC;</item>
+        <item>1 Mile</item>
+        <item>5 Mile</item>
+        <item>10 Mile</item>
     </string-array>
 
 </resources>
