@@ -11,23 +11,13 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.gms.maps.model.PatternItem;
-import com.google.android.gms.maps.model.Polygon;
-import com.google.android.gms.maps.model.PolygonOptions;
-import com.google.android.gms.maps.model.Polyline;
-import com.google.android.gms.maps.model.PolylineOptions;
-import com.google.android.gms.maps.model.RoundCap;
 import android.widget.Spinner;
 import android.widget.ArrayAdapter;
-
-
 
 import android.support.design.widget.FloatingActionButton;
 import android.view.View;
 
-
 import static com.example.polygons.R.id.map;
-
 
 /**
  * An activity that displays a Google map with polylines to represent paths or routes,
@@ -103,7 +93,7 @@ public class PolyActivity extends AppCompatActivity
                 .title("Marker in Global Village"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.123096,-77.662103))
-                .title("Marker in Airport"));
+                .title("Marker in Airport").snippet("Population: 4,137,400"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.122720,-77.663515))
                 .title("Marker in Airport"));
@@ -133,10 +123,7 @@ public class PolyActivity extends AppCompatActivity
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.100287,-77.607625))
                 .title("Marker in MCC"));
 
-
         googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(rochester, 13));
-
-
 
     }
 }
