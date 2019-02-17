@@ -93,7 +93,7 @@ public class PolyActivity extends AppCompatActivity
                         "Diagnosis: Allergies"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.086485, -77.667821))
-                .title("Case date: 2/13/19").snippet("Symptoms Rash, fever, nausea " +
+                .title("Case date: 2/13/19").snippet("Symptoms: Rash, fever, nausea " +
                         "Medication: Cortisol, tums" +
                         "Effective: No, yes" +
                         "Diagnosis: Measles"));
@@ -111,7 +111,7 @@ public class PolyActivity extends AppCompatActivity
                         "Diagnosis: Allergies"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.079947,-77.67814))
-                .title("Case date: 2/13/19").snippet("Symptoms Rash, fever, nausea " +
+                .title("Case date: 2/13/19").snippet("Symptoms: Rash, fever, nausea " +
                         "Medication: Cortisol, tums" +
                         "Effective: No, yes" +
                         "Diagnosis: Measles"));
@@ -123,7 +123,7 @@ public class PolyActivity extends AppCompatActivity
                         "Diagnosis: Allergies"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.122720,-77.663515))
-                .title("Case date: 2/12/19").snippet("Symptoms Rash, fever, nausea " +
+                .title("Case date: 2/12/19").snippet("Symptoms: Rash, fever, nausea " +
                         "Medication: Cortisol, tums" +
                         "Effective: No, yes" +
                         "Diagnosis: Measles"));
@@ -135,7 +135,7 @@ public class PolyActivity extends AppCompatActivity
                         "Diagnosis: Allergies"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.120089,-77.658711))
-                .title("Case date: 2/16/19").snippet("Symptoms Rash, fever, nausea " +
+                .title("Case date: 2/16/19").snippet("Symptoms: Rash, fever, nausea " +
                         "Medication: Cortisol, tums" +
                         "Effective: No, yes" +
                         "Diagnosis: Measles"));
@@ -154,7 +154,7 @@ public class PolyActivity extends AppCompatActivity
                         "Diagnosis: Allergies"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.082110,-77.633406))
-                .title("Case date: 2/13/19").snippet("Symptoms Rash, fever, nausea " +
+                .title("Case date: 2/13/19").snippet("Symptoms: Rash, fever, nausea " +
                         "Medication: Cortisol, tums" +
                         "Effective: No, yes" +
                         "Diagnosis: Measles"));
@@ -172,7 +172,7 @@ public class PolyActivity extends AppCompatActivity
                         "Diagnosis: Migraine"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.100287,-77.607625))
-                .title("Case date: 2/16/19").snippet("Symptoms Rash, fever, nausea " +
+                .title("Case date: 2/16/19").snippet("Symptoms: Rash, fever, nausea " +
                         "Medication: Cortisol, tums" +
                         "Effective: No, yes" +
                         "Diagnosis: Measles"));

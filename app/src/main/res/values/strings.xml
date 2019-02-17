@@ -16,8 +16,8 @@
     <string-array name="distance_array">
         <item>Distance &#x25BC;</item>
         <item>1 Mile</item>
-        <item>5 Mile</item>
-        <item>10 Mile</item>
+        <item>5 Miles</item>
+        <item>10 Miles</item>
     </string-array>
 
 </resources>
