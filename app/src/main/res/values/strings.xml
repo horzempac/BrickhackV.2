@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">FindMySickness</string>
     <string name="title_activity_maps">FindMySickness</string>
+
+    <string-array name="symptoms_array">
+        <item>Select</item>
+        <item>Fever</item>
+        <item>Cough</item>
+        <item>Sneezing</item>
+        <item>Rash</item>
+        <item>Nausea</item>
+        <item>Headache</item>
+        <item>Other</item>
+    </string-array>
+
 </resources>
