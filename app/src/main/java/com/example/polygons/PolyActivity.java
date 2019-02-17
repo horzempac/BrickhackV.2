@@ -55,10 +55,13 @@ public class PolyActivity extends AppCompatActivity
     @Override
     public void onMapReady(GoogleMap googleMap) {
 
-        FloatingActionButton myFab = (FloatingActionButton) findViewById(R.id.floatingActionButton);
+        final GoogleMap g = googleMap;
+
+        FloatingActionButton myFab = (FloatingActionButton)  findViewById(R.id.floatingActionButton);
         myFab.setOnClickListener(new View.OnClickListener() {
                                      public void onClick(View v) {
-                                         System.out.println("Button click");
+                                         g.addMarker(new MarkerOptions().position(new LatLng(43.084452, -77.673883))
+                                                 .title("Marker in Clark Gym"));
                                      }
                                  });
 
