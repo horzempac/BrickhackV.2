@@ -78,53 +78,101 @@ public class PolyActivity extends AppCompatActivity
         LatLng rochester = new LatLng(43.106998, -77.659939);
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.085114, -77.667220))
-                .title("Marker in NRH"));
+                .title("Marker in NRH").snippet("Symptoms: Cough, sneezing " +
+                        "Medication: Claratin " +
+                        "Effective: Yes " +
+                        "Diagnosis: Allergies"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.086485, -77.667821))
-                .title("Marker in Ellingson"));
+                .title("Marker in Ellingson").snippet("Symptoms Rash, fever, nausea " +
+                        "Medication: Cortisol, tums" +
+                        "Effective: No, yes" +
+                        "Diagnosis: Measles"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.086148, -77.667403))
-                .title("Marker in Gibson"));
+                .title("Marker in Gibson").snippet("Symptoms: Cough, sneezing " +
+                        "Medication: Claratin " +
+                        "Effective: Yes " +
+                        "Diagnosis: Allergies"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.083468, -77.681637))
-                .title("Marker in Global Village"));
+                .title("Marker in Global Village").snippet("Symptoms: Cough, sneezing " +
+                        "Medication: Claratin " +
+                        "Effective: Yes " +
+                        "Diagnosis: Allergies"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.079947,-77.67814))
-                .title("Marker in Global Village"));
+                .title("Marker in Global Village").snippet("Symptoms Rash, fever, nausea " +
+                        "Medication: Cortisol, tums" +
+                        "Effective: No, yes" +
+                        "Diagnosis: Measles"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.123096,-77.662103))
-                .title("Marker in Airport").snippet("Population: 4,137,400"));
+                .title("Marker in Airport").snippet("Symptoms: Cough, sneezing " +
+                        "Medication: Claratin " +
+                        "Effective: Yes " +
+                        "Diagnosis: Allergies"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.122720,-77.663515))
-                .title("Marker in Airport"));
+                .title("Marker in Airport").snippet("Symptoms Rash, fever, nausea " +
+                        "Medication: Cortisol, tums" +
+                        "Effective: No, yes" +
+                        "Diagnosis: Measles"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.107558,-77.686679))
-                .title("Marker in Airport"));
+                .title("Marker in Airport").snippet("Symptoms: Cough, sneezing " +
+                        "Medication: Claratin " +
+                        "Effective: Yes " +
+                        "Diagnosis: Allergies"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.120089,-77.658711))
-                .title("Marker in Airport"));
+                .title("Marker in Airport").snippet("Symptoms Rash, fever, nausea " +
+                        "Medication: Cortisol, tums" +
+                        "Effective: No, yes" +
+                        "Diagnosis: Measles"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.084116,-77.632076))
-                .title("Marker in Market Place Mall"));
+                .title("Marker in Market Place Mall").snippet("Symptoms: Cough, sneezing " +
+                        "Medication: Claratin " +
+                        "Effective: Yes " +
+                        "Diagnosis: Allergies"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.083614,-77.636194
         ))
-                .title("Marker in Market Place Mall"));
+                .title("Marker in Market Place Mall").snippet("Symptoms: Cough, sneezing " +
+                        "Medication: Claratin " +
+                        "Effective: Yes " +
+                        "Diagnosis: Allergies"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.082110,-77.633406))
-                .title("Marker in Market Place Mall"));
+                .title("Marker in Market Place Mall").snippet("Symptoms Rash, fever, nausea " +
+                        "Medication: Cortisol, tums" +
+                        "Effective: No, yes" +
+                        "Diagnosis: Measles"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.102449,-77.610886))
-                .title("Marker in MCC"));
+                .title("Marker in MCC").snippet("Symptoms: Cough, sneezing " +
+                        "Medication: Claratin " +
+                        "Effective: Yes " +
+                        "Diagnosis: Allergies"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.102292,-77.610714))
-                .title("Marker in MCC"));
+                .title("Marker in MCC").snippet("Symptoms: Headache " +
+                        "Medication: Advil " +
+                        "Effective: No " +
+                        "Diagnosis: Migraine"));
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(43.100287,-77.607625))
-                .title("Marker in MCC"));
+                .title("Marker in MCC").snippet("Symptoms Rash, fever, nausea " +
+                        "Medication: Cortisol, tums" +
+                        "Effective: No, yes" +
+                        "Diagnosis: Measles"));
 
         googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(rochester, 13));
 
+
+
     }
+
 }
 
