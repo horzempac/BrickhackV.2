@@ -17,6 +17,10 @@ import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
 import com.google.android.gms.maps.model.RoundCap;
 
+import android.support.design.widget.FloatingActionButton;
+import android.view.View;
+
+
 import static com.example.polygons.R.id.map;
 
 
@@ -50,6 +54,13 @@ public class PolyActivity extends AppCompatActivity
      */
     @Override
     public void onMapReady(GoogleMap googleMap) {
+
+        FloatingActionButton myFab = (FloatingActionButton) findViewById(R.id.floatingActionButton);
+        myFab.setOnClickListener(new View.OnClickListener() {
+                                     public void onClick(View v) {
+                                         System.out.println("Button click");
+                                     }
+                                 });
 
 
         // Position the map's camera near Alice Springs in the center of Australia,
